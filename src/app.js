@@ -81,6 +81,4 @@ app.get('*', (req, res) => {
     res.render('404', { title: '404', name: 'Demis' });
 });
 
-app.listen(port, () => {
-    console.log('Server is up and running on port ' + port);
-});
+app.listen(port);
